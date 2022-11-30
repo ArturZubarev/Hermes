@@ -1,6 +1,5 @@
-package org.zubarev.hermes.app.service;
+package service;
 
-import lombok.Data;
 import org.zubarev.hermes.app.infra.util.CommonUtil;
 import org.zubarev.hermes.app.model.entity.geography.City;
 

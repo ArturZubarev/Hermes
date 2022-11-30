@@ -9,6 +9,7 @@
     <module>hermes_model</module>
     <module>hermes_persistence</module>
     <module>hermes_presentation</module>
+    <module>hermes_service</module>
   </modules>
   <name>Hermes Maven Webapp</name>
   <url>http://maven.apache.org</url>

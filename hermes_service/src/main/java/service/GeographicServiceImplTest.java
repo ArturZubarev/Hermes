@@ -1,4 +1,4 @@
-package org.zubarev.hermes.app.service;
+package service;
 import org.junit.Before;
 import org.junit.Test;
 import org.zubarev.hermes.app.model.entity.geography.City;
@@ -17,7 +17,7 @@ public class GeographicServiceImplTest {
     @Test
     public void testNoDataReturnedAtStart() {
         List<City> cities = service.findCities();
-        assertTrue(cities.isEmpty());
+        Assert.assertTrue(cities.isEmpty());
     }
 
     @Test
@@ -26,7 +26,7 @@ public class GeographicServiceImplTest {
         service.saveCity(city);
 
         List<City> cities = service.findCities();
-        assertEquals(cities.size(), 1);
-        assertEquals(cities.get(0).getName(), "Voronezh");
+        Assert.assertEquals(cities.size(), 1);
+        Assert.assertEquals(cities.get(0).getName(), "Voronezh");
     }
 }

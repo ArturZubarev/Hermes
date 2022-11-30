@@ -1,4 +1,4 @@
-package org.zubarev.hermes.app.service;
+package service;
 
 import org.zubarev.hermes.app.model.entity.geography.City;
 

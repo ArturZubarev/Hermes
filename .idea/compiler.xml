@@ -10,6 +10,7 @@
         <module name="hermes_presentation" />
         <module name="hermes_model" />
         <module name="hermes_persistence" />
+        <module name="hermes_service" />
       </profile>
     </annotationProcessing>
   </component>
